@@ -221,7 +221,7 @@
   </p>
 
   <p>
-  But there's more. A lower bound, courtesy of Nesterov <dt-cite key="nesterov2013introductory"></dt-cite>, states that momentum is, in a certain very narrow and technical sense, optimal. Now, this doesn't mean it is the best algorithm for all functions in all circumstances. But it does mean it satisfies some curiously beautiful mathematical properties which scratches a very human itch for perfection and closure. But more on that later. Let's say this for now -- momentum is an algorithm for the book.
+  But there's more. A lower bound, courtesy of Nesterov <dt-cite key="nesterov2013introductory"></dt-cite>, states that momentum is, in a certain very narrow and technical sense, optimal. Now, this doesn't mean it is the best algorithm for all functions in all circumstances. But it does satisfy some curiously beautiful mathematical properties which scratch a very human itch for perfection and closure. But more on that later. Let's say this for now -- momentum is an algorithm for the book.
   </p>
 
 <hr>
@@ -1446,7 +1446,7 @@ w_{i}^{k+1}=w_{i}^{k}-\alpha\sum_{j\in N}(w_{i}^{k}-w_{j}^{k})-\begin{cases}
   w^{k} ~~=~~ w^{0} ~+~ \sum_{i}^{k}\Gamma_{i}^{k}\nabla f(w^{i}) \quad \text{ for some diagonal matrix } \Gamma_{i}^{k} .
   $$
 
-  This class of methods covers most of the popular algorithms for training neural networks, including ADAM and AdaGrad. We shall refer to this class of methods as "Linear First Order Methods", and we will show a single function all these methods ultimately fail on.
+  This class of methods has now covers most of the popular algorithms for training neural networks, including ADAM and AdaGrad. We shall refer to this class of methods as "Linear First Order Methods", and we will show a single function all these methods ultimately fail on.
 
   </p>
   <h3>The Resisting Oracle</h3>
